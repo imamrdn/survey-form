@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>surfey-form</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Ini hanya kalimat percobaan</p>
+        </header>
+        
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="name-label">Email</label>
+                <input type="email" name="" id="email" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="number" id="number-label">Number</label>
+                <input type="number" id="number" placeholder="Enter your number" min="1" max="10">
+            </div>
+
+            <div class="form-group">
+                <label for="Gender">Gender</label>
+                <select name="" id="dropdown">
+                    <option value="" disabled selected>Your Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="study">Your Study ?</label><br>
+                <input type="radio" name="radio" class="input-radio">
+                <label for="study">Informatics</label><br>
+                <input type="radio" name="radio" checked>
+                <label for="study">Literary</label><br>
+                <input type="radio" name="radio" checked>
+                <label for="study">Phsycology</label>
+            </div>
+
+            <div class="form-group">
+                <label for="hobby">Your Hobby ?</label><br>
+                <input type="checkbox" name="checkbox" id="hobby" value="hobby">
+                <label for="hobby">Swimming</label><br>
+                <input type="checkbox" name="checkbox" id="hobby" value="hobby">
+                <label for="hobby">Football</label><br>
+                <input type="checkbox" name="checkbox" id="hobby" value="hobby">
+                <label for="hobby">Games</label><br>
+                <input type="checkbox" name="checkbox" id="hobby" value="hobby">
+                <label for="hobby">Travelling</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="textarea">Any comments and suggestions</label><br>
+                <textarea name="comments" id="" placeholder="what do you think .."></textarea><br>
+                <input type="submit" id="submit"> 
+            </div>
+        
+            
+        </form>
+    </div>
+    
+</body>
+</html>
